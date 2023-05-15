@@ -1,0 +1,47 @@
+.button__bigDefault{
+    background-color: var(--color-brand-1);
+    padding: 7px 50px;
+    border-radius: var(--radius-default);
+    border: none;
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.button__bigDefault:hover ,.button__littleDefault:hover{
+    background-color: var(--color-brand-2);
+}
+
+.button__littleDefault{
+    background-color: var(--color-brand-1);
+    padding: 12px 28px;
+    border-radius: var(--radius-default);
+    transition: var(--animation-duration) var(--animation-type);
+}
+
+.tag{
+    background-color: var(--color-grey-3);
+    padding: 7px 12px;
+    border-radius: var(--radius-default);
+    width: fit-content;
+}
+
+.button__trash{
+    background: no-repeat url(../assets/img/trash.svg);
+    background-position: center;
+    background-color: var(--color-grey-5);
+    border-radius: var(--radius-default);
+    width: 70px;
+    height: 38px;
+    border: none;
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.button__trash:hover{
+    background-color: var(--color-grey-3);
+}
+
+.span__fake{
+    background: var(--color-grey-5);
+    width: 120px;
+    height: 16px;
+    border-radius: var(--radius-default);
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/display.css">
+    <link rel="stylesheet" href="./styles/positioning.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/texts.css">
+    <link rel="stylesheet" href="./styles/mediaQuery.css">
+    <link rel="stylesheet" href="./pages/home/index.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    <title>Webwomen</title>
+    <meta
+      name="description"
+      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?"
+    />
+</head>
+<body>
+    <header class="dspl__flex mb40">
+      <!-- essa div contém a img de fundo -->
+      <div id="imgWoman"></div>
+      <div class="dspl__flex f__d-column gap60 just__cont-center container">
+        <div>
+          <img src="./assets/img/logo.svg" alt="">
+        </div>
+
+        <div class="dspl__flex gap30 f__d-column">
+          <h1 class="title3">Lugar de mulher é onde ela quiser!</h1>
+          <p class="text1 mb30">Está procurando oportunidades de estágio, emprego ou bolsas de estudo? Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil e ao redor do mundo?</p>
+          <p class="text1"><strong>Confere aqui embaixo o que temos pra você!</strong></p>
+        </div>
+
+        <nav>
+          <a href="#vagas" class="button__bigDefault text2">Ir para seção das vagas</a>
+        </nav>
+      </div>
+
+    </header>
+
+    <main class="container dspl__flex gap40 mb40">
+      <section class="dspl__flex f__d-column gap40">
+
+        <h2 id="vagas" class="title4">Vagas</h2>
+
+        <ul id="jobs" class="dspl__flex f__d-column gap20">
+        </ul>
+
+      </section>
+
+      <aside class="dspl__flex f__d-column gap40">
+
+        <h2 class="title4">Vagas selecionadas</h2>
+
+        <ul id="listApplyJob" class="dspl__flex f__d-column gap20">
+
+          <div class="dspl__flex f__d-column gap20">
+            <p class="text4">Você ainda não aplicou para nenhuma vaga</p>
+
+            <span class="span__fake"></span>
+            <span class="span__fake"></span>
+            <span class="span__fake"></span>
+          </div>
+
+        </ul>
+
+      </aside>
+
+    </main>
+
+    <script src="./pages/home/script/jobsData.js"></script>
+    <script src="./pages/home/script/render.js"></script>
+    <script src="./pages/home/script/addJobs.js"></script>
+    <script src="./pages/home/script/index.js"></script>
+</body>
+</html>

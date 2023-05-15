@@ -1,0 +1,26 @@
+.gap60{
+    gap: 60px;
+}
+.gap40{
+    gap: 40px;
+}
+.gap30{
+    gap: 30px;
+}
+.gap20{
+    gap: 20px;
+}
+
+.mb40{
+    margin-bottom: 40px;
+}
+
+.f__d-column{
+    flex-direction: column;
+}
+.just__cont-center{
+    justify-content: center;
+}
+.align__items-center{
+    align-items: center;
+}
